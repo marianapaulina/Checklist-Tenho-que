@@ -9,9 +9,14 @@ body {
 .container {
     max-width: 600px;
     margin: auto;
-    background-color: #1e1e1e;
+    background-color: rgba(30, 30, 30, 0.8); /* Fundo com transparência */
+    background-image: url('gif/bob.gif'); /* GIF como fundo */
+    background-size: cover; /* Faz o fundo cobrir toda a área */
+    background-position: center; /* Centraliza o fundo */
     padding: 20px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 input[type="text"], select {
