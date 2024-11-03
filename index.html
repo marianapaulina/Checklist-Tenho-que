@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist com Categorias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checklist Tenho que:</h1>
+        <input type="text" id="taskInput" placeholder="Digite uma tarefa...">
+        <select id="categorySelect">
+            <option value="">categoria</option>
+            <option value="Saúde">Saúde</option>
+            <option value="Trabalho">Trabalho</option>
+            <option value="Estudos">Estudos</option>
+            <option value="Lazer">Lazer</option>
+            <option value="Finanças">Finanças</option>
+            <option value="Pessoal">Pessoal</option>
+        </select>
+        <button id="addButton">Adicionar</button>
+
+        <div class="category">
+            <h2>Saúde</h2>
+            <div class="task-list" id="SaúdeTasks"></div>
+        </div>
+        <div class="category">
+            <h2>Trabalho</h2>
+            <div class="task-list" id="TrabalhoTasks"></div>
+        </div>
+        <div class="category">
+            <h2>Estudos</h2>
+            <div class="task-list" id="EstudosTasks"></div>
+        </div>
+        <div class="category">
+            <h2>Lazer</h2>
+            <div class="task-list" id="LazerTasks"></div>
+        </div>
+        <div class="category">
+            <h2>Finanças</h2>
+            <div class="task-list" id="FinançasTasks"></div>
+        </div>
+        <div class="category">
+            <h2>Pessoal</h2>
+            <div class="task-list" id="PessoalTasks"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
